@@ -83,7 +83,7 @@ public class Main7 {
             items.add(add);
             MenuItem show = new MenuItem("Show", Menu::showList);
             items.add(show);
-            MenuItem showUnique = new MenuItem("Show sorted unique", Menu::showUniqueList);
+            MenuItem showUnique = new MenuItem("Show unique", Menu::showUniqueList);
             items.add(showUnique);
             MenuItem saveToFile = new MenuItem("Save to file", FileService::save);
             items.add(saveToFile);
